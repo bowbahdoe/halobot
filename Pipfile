@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+keras = "*"
+tensorflow = "==1.9.0"
+tqdm = "*"
+opencv-python = "*"
+matplotlib = "*"
+protobuf = "==3.6.0"
+sklearn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
